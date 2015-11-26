@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\DigitalLogicHomework\BasicHomework2\BasicHomework2\BasicHomework2.ncd
+OUTFILE=E:\DigitalLogicHomework\BasicHomework2\BasicHomework2\BasicHomework2.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\DigitalLogicHomework\BasicHomework2\BasicHomework2
+LICENSE=WebPack
+USER_INFO=__0_0_0

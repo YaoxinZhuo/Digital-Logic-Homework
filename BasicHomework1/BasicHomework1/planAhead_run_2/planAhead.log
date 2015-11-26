@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Mon Nov 23 10:33:13 2015
+# Process ID: 5576
+# Log file: E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/planAhead_run_2/planAhead.log
+# Journal file: E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/pa.fromHdl.tcl
+# create_project -name BasicHomework1 -dir "E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/planAhead_run_2" -part xc6slx16csg324-3
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/planAhead_run_2/BasicHomework1.ppr
+     E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/planAhead_run_2/BasicHomework1.data
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead

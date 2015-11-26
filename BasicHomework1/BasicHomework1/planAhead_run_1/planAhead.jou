@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Tue Nov 24 09:47:16 2015
+# Process ID: 10060
+# Log file: E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/planAhead_run_1/planAhead.log
+# Journal file: E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/DigitalLogicHomework/BasicHomework1/BasicHomework1/pa.fromHdl.tcl

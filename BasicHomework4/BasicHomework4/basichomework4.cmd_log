@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/BasicHomework4/BasicHomework4/basichomework4.xst" -ofn "E:/DigitalLogicHomework/BasicHomework4/BasicHomework4/basichomework4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basichomework4.ucf -p xc6slx16-csg324-3 basichomework4.ngc basichomework4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basichomework4_map.ncd basichomework4.ngd basichomework4.pcf 
+par -w -intstyle ise -ol high -mt off basichomework4_map.ncd basichomework4.ncd basichomework4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basichomework4.twx basichomework4.ncd -o basichomework4.twr basichomework4.pcf -ucf basichomework4.ucf 
+bitgen -intstyle ise -f basichomework4.ut basichomework4.ncd 

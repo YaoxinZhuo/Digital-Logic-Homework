@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Tue Nov 24 06:56:45 2015
+# Process ID: 9688
+# Log file: E:/DigitalLogicHomework/BasicHomework6/BasicHomework6/planAhead_run_1/planAhead.log
+# Journal file: E:/DigitalLogicHomework/BasicHomework6/BasicHomework6/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/DigitalLogicHomework/BasicHomework6/BasicHomework6/pa.fromHdl.tcl
+startgroup
+set_property package_pin M8 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {A[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {B[1]}]]
+startgroup
+set_property package_pin T5 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports C0]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports C4]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {F[0]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {F[1]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {F[2]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {F[3]}]
+endgroup
+save_design

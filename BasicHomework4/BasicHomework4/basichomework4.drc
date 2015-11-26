@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 24 10:58:05 2015
+
+drc -z basichomework4.ncd basichomework4.pcf
+
+DRC detected 0 errors and 0 warnings.

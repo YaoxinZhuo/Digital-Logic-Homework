@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/BasicHomework5/BasicHomework5/basichomework5.xst" -ofn "E:/DigitalLogicHomework/BasicHomework5/BasicHomework5/basichomework5.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basichomework5.ucf -p xc6slx16-csg324-3 basichomework5.ngc basichomework5.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basichomework5_map.ncd basichomework5.ngd basichomework5.pcf 
+par -w -intstyle ise -ol high -mt off basichomework5_map.ncd basichomework5.ncd basichomework5.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basichomework5.twx basichomework5.ncd -o basichomework5.twr basichomework5.pcf -ucf basichomework5.ucf 
+bitgen -intstyle ise -f basichomework5.ut basichomework5.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/BasicHomework5/BasicHomework5/basichomework5.xst" -ofn "E:/DigitalLogicHomework/BasicHomework5/BasicHomework5/basichomework5.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basichomework5.ucf -p xc6slx16-csg324-3 basichomework5.ngc basichomework5.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basichomework5_map.ncd basichomework5.ngd basichomework5.pcf 
+par -w -intstyle ise -ol high -mt off basichomework5_map.ncd basichomework5.ncd basichomework5.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basichomework5.twx basichomework5.ncd -o basichomework5.twr basichomework5.pcf -ucf basichomework5.ucf 
+bitgen -intstyle ise -f basichomework5.ut basichomework5.ncd 

@@ -1,0 +1,28 @@
+Command line:
+   basichomework1teat_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50123
+
+Mon Nov 23 10:28:33 2015
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 371.941 Meg
+
+ Total Signals          : 30
+ Total Nets             : 29
+ Total Signal Drivers   : 21
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 23
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 114
+
+ Total Simulation Time: 0.953125 sec
+
+ Current Memory Usage: 688.112 Meg
+
+Mon Nov 23 10:29:54 2015
+

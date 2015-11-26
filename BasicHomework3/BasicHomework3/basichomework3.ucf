@@ -1,0 +1,14 @@
+NET "A" LOC = T5;
+NET "B" LOC = V8;
+NET "C" LOC = U8;
+NET "G1" LOC = T10;
+NET "GA" LOC = T9;
+NET "GB" LOC = V9;
+NET "Y[0]" LOC = T11;
+NET "Y[1]" LOC = R11;
+NET "Y[2]" LOC = N11;
+NET "Y[3]" LOC = M11;
+NET "Y[4]" LOC = V15;
+NET "Y[5]" LOC = U15;
+NET "Y[6]" LOC = V16;
+NET "Y[7]" LOC = U16;
