@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Mon Nov 30 19:45:12 2015
+# Process ID: 1600
+# Log file: E:/DigitalLogicHomework/BasicHomework8/BasicHomework8/planAhead_run_1/planAhead.log
+# Journal file: E:/DigitalLogicHomework/BasicHomework8/BasicHomework8/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/DigitalLogicHomework/BasicHomework8/BasicHomework8/pa.fromHdl.tcl
+startgroup
+set_property package_pin U16 [get_ports QN]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports _QN]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports R]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports S]
+endgroup
+save_design

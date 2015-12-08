@@ -1,0 +1,109 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml basichomework7.twx basichomework7.ncd -o basichomework7.twr
+basichomework7.pcf -ucf basichomework7.ucf
+
+Design file:              basichomework7.ncd
+Physical constraint file: basichomework7.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.22 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |C4             |   10.872|
+A<0>           |CF             |   10.831|
+A<0>           |F<0>           |    7.980|
+A<0>           |F<1>           |    9.471|
+A<0>           |F<2>           |    8.973|
+A<0>           |F<3>           |   10.323|
+A<0>           |ZF             |   11.062|
+A<1>           |C4             |   10.186|
+A<1>           |CF             |   10.145|
+A<1>           |F<1>           |    8.679|
+A<1>           |F<2>           |    9.294|
+A<1>           |F<3>           |    9.533|
+A<1>           |ZF             |   10.960|
+A<2>           |C4             |    9.763|
+A<2>           |CF             |    9.722|
+A<2>           |F<2>           |    8.978|
+A<2>           |F<3>           |    9.110|
+A<2>           |ZF             |   10.007|
+A<3>           |C4             |    8.284|
+A<3>           |CF             |    8.243|
+A<3>           |F<3>           |    8.278|
+A<3>           |ZF             |    8.043|
+ADD_SUB        |C4             |   11.179|
+ADD_SUB        |CF             |   11.138|
+ADD_SUB        |F<1>           |   10.115|
+ADD_SUB        |F<2>           |   10.221|
+ADD_SUB        |F<3>           |   10.826|
+ADD_SUB        |ZF             |   11.870|
+B<0>           |C4             |   10.966|
+B<0>           |CF             |   10.925|
+B<0>           |F<0>           |    8.156|
+B<0>           |F<1>           |    9.353|
+B<0>           |F<2>           |    9.149|
+B<0>           |F<3>           |   10.313|
+B<0>           |ZF             |   10.944|
+B<1>           |C4             |    9.819|
+B<1>           |CF             |    9.778|
+B<1>           |F<1>           |    8.319|
+B<1>           |F<2>           |    8.934|
+B<1>           |F<3>           |    9.166|
+B<1>           |ZF             |   10.600|
+B<2>           |C4             |    9.516|
+B<2>           |CF             |    9.475|
+B<2>           |F<2>           |    8.797|
+B<2>           |F<3>           |    8.863|
+B<2>           |ZF             |    9.760|
+B<3>           |C4             |    7.827|
+B<3>           |CF             |    7.786|
+B<3>           |F<3>           |    7.428|
+B<3>           |ZF             |    8.260|
+C0             |C4             |   13.108|
+C0             |CF             |   13.067|
+C0             |F<0>           |   10.298|
+C0             |F<1>           |   11.307|
+C0             |F<2>           |   11.291|
+C0             |F<3>           |   12.455|
+C0             |ZF             |   12.827|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 30 19:17:37 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 162 MB
+
+
+

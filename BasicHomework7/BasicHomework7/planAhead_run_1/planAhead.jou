@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Mon Nov 30 19:02:24 2015
+# Process ID: 10472
+# Log file: E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/planAhead_run_1/planAhead.log
+# Journal file: E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/pa.fromHdl.tcl
+set_property package_pin "" [get_ports [list  {A[1]}]]
+startgroup
+set_property package_pin N8 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports {F[0]}]
+endgroup
+startgroup
+set_property package_pin A2 [get_ports {F[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {F[3]}]]
+startgroup
+set_property package_pin B8 [get_ports C0]
+endgroup
+set_property package_pin "" [get_ports [list  C4]]
+startgroup
+set_property package_pin C9 [get_ports ADD_SUB]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports C4]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {F[3]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {F[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {F[1]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {F[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  CF]]
+startgroup
+set_property package_pin V15 [get_ports ZF]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports CF]
+endgroup
+save_design

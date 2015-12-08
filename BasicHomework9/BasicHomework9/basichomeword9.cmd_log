@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/basichomeword9.xst" -ofn "E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/basichomeword9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basichomeword9.ucf -p xc6slx16-csg324-3 basichomeword9.ngc basichomeword9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basichomeword9_map.ncd basichomeword9.ngd basichomeword9.pcf 
+par -w -intstyle ise -ol high -mt off basichomeword9_map.ncd basichomeword9.ncd basichomeword9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basichomeword9.twx basichomeword9.ncd -o basichomeword9.twr basichomeword9.pcf -ucf basichomeword9.ucf 
+bitgen -intstyle ise -f basichomeword9.ut basichomeword9.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basichomeword9.ucf -p xc6slx16-csg324-3 basichomeword9.ngc basichomeword9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basichomeword9_map.ncd basichomeword9.ngd basichomeword9.pcf 
+par -w -intstyle ise -ol high -mt off basichomeword9_map.ncd basichomeword9.ncd basichomeword9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basichomeword9.twx basichomeword9.ncd -o basichomeword9.twr basichomeword9.pcf -ucf basichomeword9.ucf 
+bitgen -intstyle ise -f basichomeword9.ut basichomeword9.ncd 
+bitgen -intstyle ise -f basichomeword9.ut basichomeword9.ncd 

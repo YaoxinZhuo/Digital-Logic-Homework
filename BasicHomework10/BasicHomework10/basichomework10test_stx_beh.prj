@@ -1,0 +1,3 @@
+verilog isim_temp "basichomework10.v"
+verilog isim_temp "basichomework10test.v"
+verilog isim_temp "D:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

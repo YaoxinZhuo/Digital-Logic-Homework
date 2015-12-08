@@ -1,0 +1,20 @@
+Running: D:\Xilinx\14.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/DigitalLogicHomework/BasicHomework13/BasicHomework13/basichomework13test_isim_beh.exe -prj E:/DigitalLogicHomework/BasicHomework13/BasicHomework13/basichomework13test_beh.prj work.basichomework13test work.glbl 
+ISim P.28xd (signature 0x1048c146)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/DigitalLogicHomework/BasicHomework13/BasicHomework13/basichomework13.v" into library work
+Analyzing Verilog file "E:/DigitalLogicHomework/BasicHomework13/BasicHomework13/basichomework13test.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94480 KB
+Fuse CPU Usage: 405 ms
+Compiling module basichomework13
+Compiling module basichomework13test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable E:/DigitalLogicHomework/BasicHomework13/BasicHomework13/basichomework13test_isim_beh.exe
+Fuse Memory Usage: 102000 KB
+Fuse CPU Usage: 437 ms

@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/basichomework7.xst" -ofn "E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/basichomework7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basichomework7.ucf -p xc6slx16-csg324-3 basichomework7.ngc basichomework7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basichomework7_map.ncd basichomework7.ngd basichomework7.pcf 
+par -w -intstyle ise -ol high -mt off basichomework7_map.ncd basichomework7.ncd basichomework7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basichomework7.twx basichomework7.ncd -o basichomework7.twr basichomework7.pcf -ucf basichomework7.ucf 
+bitgen -intstyle ise -f basichomework7.ut basichomework7.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/basichomework7.xst" -ofn "E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/basichomework7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basichomework7.ucf -p xc6slx16-csg324-3 basichomework7.ngc basichomework7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basichomework7_map.ncd basichomework7.ngd basichomework7.pcf 
+par -w -intstyle ise -ol high -mt off basichomework7_map.ncd basichomework7.ncd basichomework7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basichomework7.twx basichomework7.ncd -o basichomework7.twr basichomework7.pcf -ucf basichomework7.ucf 
+bitgen -intstyle ise -f basichomework7.ut basichomework7.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/basichomework7.xst" -ofn "E:/DigitalLogicHomework/BasicHomework7/BasicHomework7/basichomework7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basichomework7.ucf -p xc6slx16-csg324-3 basichomework7.ngc basichomework7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o basichomework7_map.ncd basichomework7.ngd basichomework7.pcf 
+par -w -intstyle ise -ol high -mt off basichomework7_map.ncd basichomework7.ncd basichomework7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml basichomework7.twx basichomework7.ncd -o basichomework7.twr basichomework7.pcf -ucf basichomework7.ucf 
+bitgen -intstyle ise -f basichomework7.ut basichomework7.ncd 

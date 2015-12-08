@@ -1,0 +1,83 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Mon Nov 30 20:27:55 2015
+# Process ID: 10024
+# Log file: E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/planAhead_run_1/planAhead.log
+# Journal file: E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/pa.fromHdl.tcl
+# create_project -name BasicHomework9 -dir "E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "basichomeword9.ucf" [current_fileset -constrset]
+Adding file 'E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/basichomeword9.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {basichomeword9.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top basichomeword9 $srcset
+# add_files [list {basichomeword9.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/basichomeword9.v" into library work
+Loading clock regions from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/basichomeword9.ucf]
+Finished Parsing UCF File [E:/DigitalLogicHomework/BasicHomework9/BasicHomework9/basichomeword9.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: c8c73ba8
+open_rtl_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 582.813 ; gain = 163.434
+startgroup
+set_property package_pin C4 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports CLR]
+endgroup
+startgroup
+set_property package_pin A8 [get_ports D]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports PRE]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports CLR]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports PRE]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports D]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports QN]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports QNF]
+endgroup
+save_design
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead
