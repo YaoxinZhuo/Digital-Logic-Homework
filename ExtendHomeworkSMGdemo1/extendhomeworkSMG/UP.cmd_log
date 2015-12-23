@@ -1,0 +1,92 @@
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 
+xst -intstyle ise -ifn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.xst" -ofn "E:/DigitalLogicHomework/ExtendHomeworkSMG/extendhomeworkSMG/UP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UP.ucf -p xc6slx16-csg324-3 UP.ngc UP.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UP_map.ncd UP.ngd UP.pcf 
+par -w -intstyle ise -ol high -mt off UP_map.ncd UP.ncd UP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP.twx UP.ncd -o UP.twr UP.pcf -ucf UP.ucf 
+bitgen -intstyle ise -f UP.ut UP.ncd 

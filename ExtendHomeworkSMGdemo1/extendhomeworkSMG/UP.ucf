@@ -1,0 +1,18 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "an[0]" LOC = N16;
+NET "an[1]" LOC = N15;
+NET "an[2]" LOC = P18;
+NET "an[3]" LOC = P17;
+NET "seg[7]" LOC = T17;
+NET "seg[6]" LOC = T18;
+NET "seg[5]" LOC = U17;
+NET "seg[4]" LOC = U18;
+NET "seg[3]" LOC = M14;
+NET "seg[1]" LOC = L14;
+NET "seg[2]" LOC = N14;
+NET "seg[0]" LOC = M13;
+NET "CLK" LOC = V10;
+NET "CLR" LOC = T10;
+NET "SS" LOC = T9;
